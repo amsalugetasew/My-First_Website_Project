@@ -1,0 +1,278 @@
+body.home{
+    background-image: url("assets/home/background-home-desktop.jpg");
+}
+body.destination{
+    background-image: url("assets/destination/background-destination-desktop.jpg");
+}
+body.crew{
+    background-image: url("assets/crew/background-crew-desktop.jpg");
+}
+body.technology{
+    background-image: url("assets/technology/background-technology-desktop.jpg");
+}
+/* .main-container{
+    width: 1300px;
+}
+.sub-container{
+    width: 1300px;
+} */
+nav.menu {
+    display: flex;
+    list-style: none;
+    width: 800px;
+    height: 80px;
+    position: relative;
+    left: 500px;
+    top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #232333;
+  }
+  .img{
+    width: 300px;
+    height: 300px;
+  }
+  .larg-uppercase{
+      text-transform: uppercase;
+      font-size: 80px;
+  }
+  .danchor{
+      position: relative;
+      left: 130px;
+      top: 100px;
+  }
+  a:hover{
+      border-bottom: 3px white solid;
+      cursor: pointer;
+  }
+  .lastlinks{
+      display: flex;
+  }
+  .lastlinks a:active{
+    background-color: black;
+}
+  .linkcircle a:hover, .linkcircle a:active{
+      background-color: white;
+  }
+ 
+  .linkcircle{
+      position: relative;
+      left: 100px;
+      bottom: 340px;
+      flex-grow: 0.02;
+
+  }
+  .solidline{
+      position: relative;
+      top: 60px;
+      left: 100px;
+      width: 500px;
+      height: 2px;
+      background-color: lightslategrey;
+  }
+  .imgsize{
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left: 700px;
+      bottom: 500px;
+  }
+  .terminology{
+      position: relative;
+      left: 250px;
+      bottom: 10px;
+      color: white;
+  }.lounch{
+      position: relative;
+      left: 250px;
+      bottom: 10px;
+      color: white;
+      text-transform: uppercase;
+      font-size: 35px;
+      letter-spacing: 2px;
+  }
+  .last-text{
+      width: 400px;
+      height: 400px;
+      color: white;
+      position: relative;
+      left: 250px;
+      bottom: 10px;
+  }
+
+  /* .circle{
+      border-radius: 50%;
+      width: 200px;
+      height: 50px;
+      border-style: solid 5px white;
+  } */
+  .uppercase-l{
+      text-transform: uppercase;
+      font-size: 30px;
+      position: relative;
+      left: 130px;
+      top: 230px;
+      color: white;
+  }
+  a.circles{
+    position: absolute;
+    width: 50px;
+    height: 50px;    
+    border-radius: 50%;
+    border: 3px white solid;
+    text-align: center;
+  }
+  .circle a:hover{
+      background-color: white;
+      color: black;
+  }
+  .circle{
+    position: relative;
+    width: 50px;
+    height: 50px;    
+    padding: 5px;
+  }
+  .ellips{
+    position: absolute;
+    width: 10px;
+    height: 12px;    
+    border-radius: 50%;
+    background-color: lightslategray;
+  }
+  .ellips a:active{
+    position: absolute;
+    width: 16px;
+    height: 19px;    
+    background-color: white;
+  }
+  .imgmot{
+      width: 400px;
+      height: 400px;
+      position: relative;
+      left: 500px;
+      bottom: 250px;
+  }
+  .othertxt{
+      color: white;
+      text-transform: capitalize;
+      position: relative;
+      left: 130px;
+      top: 240px;
+      width: 300px;
+      height: 300px;
+      opacity: 0.7;
+  }
+  .upper-opacity{
+      text-transform: uppercase;
+      opacity: 0.4;
+      color: white;
+      position: relative;
+      left: 130px;
+      top: 200px;
+      font-size: 25px;
+  }
+  .footer{
+      position: relative;
+      bottom: 300px;
+      left: 600px;
+      color: white;
+      display: flex;
+      flex-grow: 20px;
+  }
+  .footer1{
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      position: relative;
+      bottom: 300px;
+      left: 600px;
+      color: white;
+      display: flex;
+  }
+  .footer3{
+      position: relative;
+      left: 30px;
+  }
+  .span{
+      position: relative;
+      bottom: 50px;
+      word-spacing: 10px;
+  }
+  .texts{
+      position: relative;
+      left: 500px;
+      bottom: 300px;
+      width: 400px;
+      height: 400px;
+      color: white;
+  }
+  .image{
+      
+      position: relative;
+      top: 200px;
+      left: 100px;
+  }
+  .dtext{
+      position: relative;
+      left: 130px;
+      top: 100px;
+      color: white;
+      text-transform: uppercase;
+      font-size: 20px;
+      letter-spacing: 2px;
+  }
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    word-spacing: 1px;
+    color: white;
+  }
+  .menu{
+      display: flex;
+      flex-grow: 0.05;
+  }
+  .logo{
+      position: relative;
+      left: 20px;
+      top: 50px;
+      list-style: none;
+  }
+  .howh1h3p{
+      color: white;
+      width: 400px;
+      position: relative;
+      left: 100px;
+      top: 250px;
+      font-family: 'Times New Roman';
+      letter-spacing: 1px;
+      
+  }
+  .explore{
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      position: relative;
+      left: 800px;
+      top: 50px;
+      background-color: white;
+  }
+.exp{
+    position: relative;
+    left: 40px;
+    top: 80px;
+    text-transform: uppercase;
+    font-size: 20px;
+    opacity: 0.6;
+}
+.upper-case{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.space-uppercase{
+text-transform: uppercase;
+font-size: 60px;
+letter-spacing: 4px;
+}
